@@ -1,0 +1,35 @@
+.loading {
+  display:none
+}
+
+/* ---- Additions for the JS implementation ---- */
+.category-card.active {
+  border-color: #059669;
+  box-shadow: 0 0 0 2px #a7f3d0;
+}
+
+/* List view for recipes */
+#recipes-grid.list-view {
+  grid-template-columns: 1fr;
+}
+#recipes-grid.list-view .recipe-card {
+  display: flex;
+}
+#recipes-grid.list-view .recipe-card > div:first-child {
+  width: 260px;
+  height: auto;
+  min-height: 11rem;
+  flex-shrink: 0;
+}
+
+.nutri-score-filter.active {
+  box-shadow: 0 0 0 2px #065f46;
+}
+
+.swal2-popup {
+  font-family: "Inter", sans-serif;
+}
+
+.product-category-btn.active {
+  box-shadow: 0 0 0 2px #059669;
+}
